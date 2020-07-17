@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Eczar|Work+Sans&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Eczar", serif;
+  color: #0d3f67;
+}
+*,
+p,
+div {
+  font-family: "Work Sans", sans-serif;
+}
+
+.secondary {
+  /* color: #6b48ff; */
+  color: black;
+}
+
+.pale {
+  /* color: #1ee3cf; */
+  color: black;
+}
+
+footer {
+  padding: 5px;
+}
+
+.uk-card {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+.uk-card:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}

@@ -1,0 +1,88 @@
+#title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.icon {
+  font-size: 0.9rem;
+  display: inline-flex;
+  background: #d8d8d8;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.icon span {
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.mysql {
+  background: #bad5f5;
+}
+.mysql span::after {
+  content: "MySQL";
+}
+
+.express {
+  background: #f2c986;
+}
+.express span::after {
+  content: "Express";
+}
+.ajax {
+  background: #f2c986;
+}
+.ajax span::after {
+  content: "Ajax";
+}
+
+.node {
+  background: #e1c1c1;
+}
+.node span::after {
+  content: "Node.js";
+}
+.javascript {
+  background: #e1c1c1;
+}
+.javascript span::after {
+  content: "Javascript";
+}
+.keras {
+  background: #e1c1c1;
+}
+.keras span::after {
+  content: "Keras";
+}
+
+.opencv {
+  background: #eadd86;
+}
+.opencv span::after {
+  content: "OpenCV";
+}
+.d3 {
+  background: #afeae5;
+}
+.d3 span::after {
+  content: "D3.js";
+}
+
+.cnn {
+  background: #afeae5;
+}
+.cnn span::after {
+  content: "CNN";
+}
+
+.card a {
+  padding-right: 15px;
+}
+
+.github {
+  color: #739150;
+}
+
+.status {
+  color: #7699c2;
+}
